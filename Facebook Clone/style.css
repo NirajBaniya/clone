@@ -1,0 +1,144 @@
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+img{
+    justify-content: center;
+    height: 110px;
+    width: 230px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65px;  
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    height: 390px;
+    width: 400px;
+    margin-top: -12px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.first-line{
+    font-family:  SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: 400
+}
+
+#text{
+    padding: 15px;
+    width: 340px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: medium;
+    border-color: lightgrey;
+    border: 1px solid lightgrey;
+    font-weight: 200;    
+}
+
+.box1{
+    padding: 12px;
+    width: 210px;
+    border-radius: 5px;
+    font-size: large;
+    padding-left: 150px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family:sans-serif ;
+    color: white;
+    font-weight: 600;
+}
+
+.box1:hover{
+    background-color: #0157c9;
+}
+
+.forgot-account{
+    font-family:  SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1877f2;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.forgot-account:hover{
+  text-decoration: underline;
+}
+
+.box3{
+    padding: 15px;
+    width: 170px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: 600;
+    font-family:sans-serif;
+    padding-left: 25px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.box3:hover{
+    background-color: #1f830b;
+}
+
+
+
+
+
+/* ............ RESPONSIVE DESIGN ................. */
+@media screen and (max-width:460px){
+  .main{
+    background-color: yellow;
+  }
+
+  img {
+    justify-content: center;
+    height: 110px;
+    width: 150px;
+}
+.container1 {
+    height: 300px;
+    width: 245px;
+    
+}
+ 
+#text {
+    padding: 10px;
+    width: 215px;
+    margin-bottom: 5px;
+}
+ 
+.box1 {
+    padding: 10px;
+    width: 130px;
+    padding-left: 90px;
+    
+}
+
+.box3 {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.forgot-account {
+    font-size: 10px;
+    margin: 10px;
+}
+
+}
