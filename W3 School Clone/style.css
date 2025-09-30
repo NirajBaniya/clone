@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    height: 97vh;
+    width: 100%;
+
+}
+
+.box1 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+
+}
+
+
+.container1 {
+    display: flex;
+    width: 62%;
+    height: 60px;
+
+}
+
+#logo {
+    height: 60px;
+    width: 80px;
+    padding-left: 10px;
+}
+
+#navigation1 {
+    list-style: none;
+    display: flex;
+
+}
+
+.list {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.list:hover {
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+
+.search {
+    margin-top: 10px;
+}
+
+#search-box {
+    position: relative;
+    align-items: center;
+    font-style: italic;
+    font-size: large;
+    font-weight: 300;
+    padding-left: 20px;
+    height: 35px;
+    width: 180px;
+    border-radius: 30px; 
+    border-style: solid;
+}
+
+#icon-size {
+    border-radius: 50%;
+    height: 20px;
+    width: 25px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.icon-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon-size:hover {
+
+    background-color: lightgrey;
+
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    width: 47%;
+    height: 60px;
+}
+
+#icon-size2 { 
+
+    font-size: medium;
+
+}
+
+.Inside-ContainerA {
+    padding-top: 15px;
+    height: 35px;
+    width: 60%;
+}
+
+.list2 {
+    padding: 10px;
+    list-style: none;
+    font-size: medium;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.list2:hover {
+    background-color: lightgrey;
+    border-radius: 25px;
+
+}
+
+.Inside-ContainerB {
+    padding-top: 15px;
+    height: 35px;
+    width: 35%;
+
+}
+
+
+
+.list3 {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(54, 116, 54);
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list3:hover {
+
+    background-color: darkgreen;
+
+}
+
+.list4 {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list4:hover {
+    background-color: darkgreen;
+}
+
+#sign-up {
+    padding-right: 30px;
+}
+
+#log-in {
+    margin-left: -33px;
+    padding-right: 25px;
+}
+
+
+#icon-size2 {
+    color: blue;
+}
+
+.box2 {
+    padding-top: 5px;
+    height: 28px;
+    width: 100%;
+    border: 2px solid rgb(8, 8, 61);
+    background-color: rgb(8, 8, 61);
+
+}
+
+
+.navbar1 {
+    display: flex;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar1 li {
+    padding-left: 25px;
+    list-style: none;
+}
+
+
+.box3 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(https://www.w3schools.com/images/background_in_space.gif);
+
+
+}
+
+#img1 {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 180px;
+    margin-left: 150vh;
+}
+
+
+.learntocodeh1 {
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}
+
+.learntocodeh3 {
+    padding-top: 25px;
+    color: #FFF4A3;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+#main-search {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    background-color: white;
+    border-style: none;
+    font-weight: 600;
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 20px;
+    border: none;
+    border-color: white;
+}
+
+.box4 {
+    display: flex;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.group-A {
+
+    border-radius: 25px;
+    height: 40px;
+    width: 70%;
+}
+
+
+.group-B {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 25px 25px 0px;
+    height: 40px;
+    width: 20%;
+    background-color: rgb(54, 116, 54);
+}
+
+.group-B:hover {
+
+    background-color: darkgreen;
+
+}
+
+.learntocodelast {
+    margin-top: 25px;
+    font-size: 23px;
+    padding-left: 80px;
+    color: white;
+    text-decoration: underline;
+}
+
+.learntocodelast:hover {
+
+    color: #FFF4A3;
+}
